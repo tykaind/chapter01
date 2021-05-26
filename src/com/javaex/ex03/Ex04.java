@@ -13,15 +13,8 @@ public class Ex04 {
 		if( time <= 8 ) {
 			System.out.println("계산된 임금은 "+time*10000+"원 입니다.");
 		}else {
-			System.out.println("계산된 임금은 "+time*12000+"원 입니다.");
+			System.out.println("계산된 임금은 "+((time*12000)-16000)+"원 입니다.");
 		}
-		
-		
-		
-		
-		
-		
-		
 		
 		sc.close();
 	}
